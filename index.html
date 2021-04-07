@@ -3,11 +3,11 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>BOOSTFOLIA</title>
+        <title>LAMER SITE</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600&display=swap" rel="stylesheet">
-
         <link href="css/style.css" rel="stylesheet">
+        <script src="myScript.js"></script>
     </head>
 
     <body>
@@ -22,13 +22,25 @@
                 </div>
                 <!--bustfolia logo name-->
                 <div class="titlecenter">
-                    <h1>BOOSTFOLIA</h1>
+                    <h1>LAMER SITE</h1>
                 </div>
                 <!--lines menu image-->
                 <div class="titleright">
-                    <div class="logo"><img src="img/lines.jpg" alt=""></div>
+
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#home">Home</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                        </div>
+                      </div>
+
+                      
+
                 </div>
             </div>
+            
 
             <!-- title banner-->
             <div
@@ -55,46 +67,50 @@
 				<!-- About Container-->
                 <div class="about">
                     <u>ABOUT US</u>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt                                                                                                         	   ut labore et dolore magna aliqua. Ut enirn ad minim veniam.</p>
+                    <p>We learning the front-end part of fullstack-PHP course in the skillfactory academy. and we are happy</p>                                                                                                        	   ut labore et dolore magna aliqua. Ut enirn ad minim veniam.</p>
 				</div>
 				<!-- About  second  Container-->
 				<div class="about-container">
 				<!-- About menu in Container-->
                 <div class="about-menu">
                     <div class="about-detail">
-                        <div class="about-icon">
-                            <img src="img/draw.jpg" alt="">
-                        </div>
-                        <a class="about-more" href="#">
-                            CREATIVE DESIGN
-                        </a>
+                        <button onclick="window.location.href='randomizer/index.html'">
+                            <div class="about-icon">
+                                <img src="img/draw.jpg" alt="">
+                            </div>
+                            <a class="about-more" href="#">
+                                RANDOMIZER
+                            </a>
+                        </button>
                         <p class="clip">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                                                                                                                            	   ut labore et dolore magna aliqua. Ut enirn ad minim veniam.
+                            Get a random Name and Surname with a date and sex
                         </p>
                     </div>
                     <div class="about-detail">
+                        <button onclick="window.location.href='NumberMagic/index.html'">
+
                         <div class="about-icon">
                             <img src="img/bag.jpg" alt="">
                         </div>
                         <a class="about-more" href="#">
-                            UNIQU PORTFOLIO
+                            Magic Of NUmber
                         </a>
+                        </button>
                         <p class="clip">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                                                                                                                            	   ut labore et dolore magna aliqua. Ut enirn ad minim veniam.
+                            Type a minimum and maximum range and ask a number. click up and down U have a right number.
                         </p>
                     </div>
                     <div class="about-detail">
+                        <button onclick="window.location.href='calculator/index.html'">
                         <div class="about-icon">
                             <img src="img/roll.jpg" alt="">
                         </div>
                         <a class="about-more" href="#">
-                            INFINITE UPDATES
+                            Mighty Calculator
                         </a>
+                    </button>
                         <p class="clip">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                                                                                                                            	   ut labore et dolore magna aliqua. Ut enirn ad minim veniam.
+                         Last project are a simple calculator for a lady and gentlemen
                         </p>
                     </div>
 				</div>
