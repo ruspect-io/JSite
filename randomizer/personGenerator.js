@@ -90,6 +90,11 @@ const personGenerator = {
         }
     },
 
+    // randomGender: function(randomGender) {
+
+    //     return ${(randomGender)? this.GENDER_MALE : this.GENDER_FEMALE}
+    // },
+
 
     getPerson: function() {
         this.person = {};
