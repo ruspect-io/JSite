@@ -1,0 +1,40 @@
+1.u {
+	font-size: 43px;
+	font-weight: bold;
+	text-decoration-color: red; 
+	/*не получилось красное подчеркивание как показано*/
+}
+
+2..about-menu{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin-left: auto;
+    margin-right: auto;
+	/* 
+	 Не получилось выровнять по центру три блока, если сужать его ширину
+	width: 900px;*/
+	margin:60px;
+}
+3.p.clip{
+	/*не получилось текст в две строки и троеточие*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:30px;
+	font-size: 100%;
+	color:DarkGrey;
+	text-align:center;
+	margin:10px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+4.Не получилось картинку без контура вставить в область
+не получилось на картинку наложить кнопку просмотра "прозрачный треугольник".
+
+5.Не нашла как сделать навигацию указанным на фото способом- 
+горизонтально, с иконками и текстом (под блоком с картинками "our works"\)
+6.Не знаю как оформить ссылку-стрелку вниз красного цвета "Locate the map"
+
+

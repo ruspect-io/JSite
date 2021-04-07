@@ -1,0 +1,18 @@
+body {
+background-color: cornflowerblue;
+/* text-align:center;
+max-width: 600px;
+margin: auto;
+border-style: solid;
+border-color: black; */
+
+
+}
+
+.card-header {
+    background-color: crimson;
+}
+
+.card-body {
+    background-color: darkgoldenrod;
+}
